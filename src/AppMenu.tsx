@@ -178,10 +178,9 @@ const AppSubmenu = forwardRef((props: any, ref: any) => {
     }
 
     const items = getItems();
-
     return (
         <>
-            <ul ref={ref} role="menu" className={props.className}>
+            <ul ref={ref} role="menu" className={!isMobile() ? 'flex justify-content-center ' + props.className : props.className}> 
                 {items}
             </ul>
             {isSlim() && props.root && <Tooltip target="li:not(.active-menuitem)>.tooltip" />}
@@ -190,7 +189,7 @@ const AppSubmenu = forwardRef((props: any, ref: any) => {
 });
 
 const AppMenu = (props: any) => {
-    return <AppSubmenu items={props.model} className="layout-menu" menuActive={props.active} onRootItemClick={props.onRootMenuItemClick} onMenuItemClick={props.onMenuItemClick} root={true} menuMode={props.menuMode} parentMenuItemActive={true} />;
+    return <AppSubmenu items={props.model} className="layout-menu text-3xl" menuActive={props.active} onRootItemClick={props.onRootMenuItemClick} onMenuItemClick={props.onMenuItemClick} root={true} menuMode={props.menuMode} parentMenuItemActive={true} />;
 };
 
 export default AppMenu;
