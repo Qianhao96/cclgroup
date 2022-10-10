@@ -1,10 +1,10 @@
 import React from 'react';
 
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
- 
+
 import './App.css';
 
 import { Header } from './Parts/header/header';
