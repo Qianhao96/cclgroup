@@ -58,24 +58,25 @@ const App = () => {
     let inlineMenuClick: boolean;
 
     const menu = [
+        // {
+        //     label: 'Home',
+        //     icon: 'pi pi-fw pi-home',
+        //     to: '/'
+        // },
         {
-            label: 'Home',
-            icon: 'pi pi-fw pi-home',
+            label: 'Services',
+            icon: 'pi pi-fw pi-ticket',
+            // to: '/services'
             to: '/'
         },
         {
-            label: 'Services',
-            icon: 'pi pi-fw pi-calendar-plus',
-            to: '/services'
-        },
-        {
             label: 'About Us',
-            icon: 'pi pi-fw pi-calendar-plus',
+            icon: 'pi pi-fw pi-info-circle',
             to: '/about'
         },
         {
             label: 'Contact',
-            icon: 'pi pi-fw pi-calendar-plus',
+            icon: 'pi pi-fw pi-bookmark',
             to: '/contact'
         },
     ];
@@ -363,8 +364,8 @@ const App = () => {
                 <div className="layout-main">
                     <div className="layout-content">
                         <Routes>
-                            <Route path="/" element={<HomePage />} />
-                            <Route path="/services" element={<ServicePage />} />
+                            {/* <Route path="/" element={<HomePage />} /> */}
+                            <Route path="/" element={<ServicePage />} />
                             <Route path="/about" element={<AboutPage />} />
                             <Route path="/contact" element={<ContactPage />} />
                         </Routes>

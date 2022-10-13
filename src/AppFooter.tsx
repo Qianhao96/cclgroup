@@ -5,16 +5,17 @@ const AppFooter = (props: any) => {
     const isRTL = useContext(RTLContext);
 
     return (
-        <div className="layout-footer flex align-items-center p-4 shadow-2">
+        <div className="layout-footer flex align-items-center p-2 shadow-2">
             <img id="footer-logo"  src="assets/layout/images/ccl-group-logo.png" alt="ultima-layout" style={{ height: '3rem' }}/>
 
-            <div className="grid ml-auto text-2xl" style={{ width: '300px !important' }}>
-                <div className="col-12 flex justify-content-start p-1 text-black-alpha-90">Email: 
+            <div className="ml-auto text-2xl flex-column align-items-center" style={{ width: '300px !important'}}>
+                <div className=" p-1 text-black-alpha-90">
+                    Email: 
                     <a className='pl-1 text-black-alpha-90' href={`mailto:cclgroup77@gmail.com?subject=Request Service Quote`}>
                         cclgroup77@gmail.com
                     </a>
                 </div>
-                <div className="col-12 flex justify-content-start p-1 text-black-alpha-90">Phone: +61 0420655788</div>
+                <div className="p-1 text-black-alpha-90">Phone: +61 0420655788</div>
             </div>
             
             {/* <Button type="button" icon="pi pi-github fs-large" className={classNames('p-button-rounded p-button-text p-button-plain', { 'ml-auto mr-2': !isRTL, 'ml-2 mr-auto': isRTL })}></Button>

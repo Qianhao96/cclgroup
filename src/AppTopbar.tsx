@@ -287,6 +287,15 @@ const AppTopbar = (props: any) => {
                     <i className="pi pi-chevron-right"></i>
                 </button>
             </div>
+            <div className="ml-auto text-2xl flex-column align-items-center" style={{ width: '300px !important', padding: '35px' }}>
+                <div className="text-black-alpha-90">
+                    Email: 
+                    <a className='pl-1 text-black-alpha-90' href={`mailto:cclgroup77@gmail.com?subject=Request Service Quote`}>
+                        cclgroup77@gmail.com
+                    </a>
+                </div>
+                <div className="text-black-alpha-90">Phone: +61 0420655788</div>
+            </div>
         </div>
     );
 };
