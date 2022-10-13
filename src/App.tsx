@@ -111,7 +111,7 @@ const App = () => {
         if (topbarTheme === 'white' || topbarTheme === 'yellow' || topbarTheme === 'amber' || topbarTheme === 'orange' || topbarTheme === 'lime') {
             appLogoLink.src = 'assets/layout/images/logo-dark.svg';
         } else {
-            appLogoLink.src = 'assets/layout/images/logo-light.svg';
+            appLogoLink.src = 'assets/layout/images/ccl-group-logo.png';
         }
     }, [topbarTheme]);
 

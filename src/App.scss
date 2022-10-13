@@ -1,2 +1,60 @@
 @import 'prismjs/themes/prism-coy.css';
 @import './AppDemo.scss';
+
+// Layout override --------------------
+@media (min-width: 1400px) {
+    .layout-wrapper {
+        margin: 0px 250px 0px 250px;
+    }
+
+    .layout-topbar {
+        width: calc(100% - 500px);
+        margin-left: 250px;
+    }
+
+    .menu-wrapper {
+        width: calc(100% - 500px) !important;
+        margin-left: 250px;
+    }
+
+    
+    .layout-topbar {
+        margin-top: 5rem;
+    }
+
+    .layout-wrapper .menu-wrapper {
+        top: 14rem;
+    }
+
+    .layout-wrapper .layout-main {
+        padding-top: 14rem;
+    }
+
+    .layout-menu-horizontal.layout-wrapper .layout-main {
+        padding-top: 19rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .layout-topbar .layout-topbar-left {
+        height: 9rem;
+    }
+
+    .layout-wrapper .layout-main {
+        padding-top: 9rem;
+    }
+}
+
+    
+.layout-topbar {
+    height: 9rem;
+}
+
+.layout-menu-light .menu-wrapper {
+   box-shadow: unset; 
+}
+
+.layout-topbar-blue .layout-topbar .layout-topbar-left {
+    background-color: unset;
+}
+// Layout override --------------------
