@@ -16,23 +16,6 @@
         width: calc(100% - 500px) !important;
         margin-left: 250px;
     }
-
-    
-    .layout-topbar {
-        margin-top: 5rem;
-    }
-
-    .layout-wrapper .menu-wrapper {
-        top: 14rem;
-    }
-
-    .layout-wrapper .layout-main {
-        padding-top: 14rem;
-    }
-
-    .layout-menu-horizontal.layout-wrapper .layout-main {
-        padding-top: 19rem;
-    }
 }
 
 @media (max-width: 991px) {
@@ -40,21 +23,45 @@
         height: 9rem;
     }
 
-    .layout-wrapper .layout-main {
+    .layout-menu-horizontal.layout-wrapper .layout-main {
         padding-top: 9rem;
     }
 }
 
-    
+
+.layout-wrapper .menu-wrapper {
+    top: 9rem;
+}
+
+.layout-wrapper .layout-main {
+    padding-top: 9rem;
+}
+
+.layout-menu-horizontal.layout-wrapper .layout-main {
+    padding-top: 14rem;
+}
+
 .layout-topbar {
     height: 9rem;
+    border-radius: 5px;
 }
 
 .layout-menu-light .menu-wrapper {
    box-shadow: unset; 
+   border-radius: 5px;
+
 }
 
-.layout-topbar-blue .layout-topbar .layout-topbar-left {
-    background-color: unset;
+.layout-topbar-blue .layout-topbar{
+    background-color: #565656;
+    
+    .layout-topbar-left {
+        background-color: unset;
+    }
+}
+
+.layout-footer {
+    background-color: #565656;
+    border-radius: 5px;
 }
 // Layout override --------------------
