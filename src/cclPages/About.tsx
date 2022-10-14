@@ -31,7 +31,7 @@ const AboutPage = () => {
                         With over 15 years experience we can provide the competent team needed to meet partner engineering requirements, <span className='font-semibold' style={{ display:'inline-block' }}>regardless of time or location.</span>
                     </p>
                     <p>
-                        No matter the size of your project, the length of the construction period, do not hesitate to <NavLink data-pr-tooltip=' Contact Us' to='/contact' className='font-medium text-3xl text-primary'>Contact Us</NavLink> to see how Ccl Group can help you.
+                        No matter the size of your project, the length of the project period, do not hesitate to <NavLink data-pr-tooltip=' Contact Us' to='/contact' className='font-medium text-3xl text-primary'>Contact Us</NavLink> to see how Ccl Group can help you.
                     </p>
                 </Fieldset>
            </div>
