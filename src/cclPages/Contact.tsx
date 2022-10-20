@@ -7,8 +7,8 @@ const ContactPage = () => {
             <div className="col-12 flex justify-content-center">
                 <p className='text-7xl'>We’d love to hear from you</p>
             </div>
-            <div className="col-12 flex justify-content-center align-items-center" style={{ height: "600px" }}>
-                <Card style={{ width: '87%', height: '200px' }} >
+            <div className="col-12 flex justify-content-center align-items-center" style={{ height: "400px" }}>
+                <Card style={{ width: '100%', minHeight: '300px' }} >
                     <div className="grid mt-7">
                         <div className="col-12 xl:col-6 flex justify-content-center align-items-center text-2xl">
                             <i className="pi pi-phone mr-3" style={{'fontSize': '2em'}}></i> Tel：+61 0420655788

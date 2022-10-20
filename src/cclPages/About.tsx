@@ -1,18 +1,18 @@
 import React from 'react';
 import { Fieldset } from 'primereact/fieldset';
 import { NavLink } from 'react-router-dom';
- 
+
 
 const AboutPage = () => {
     return (
         <div className='grid h-full flex align-content-center'>
-            <div className='col-12 lg:col-6' style={{ height: '700px' }}>
+            <div className='col-12 lg:col-6' style={{ minHeight: '700px' }}>
                 <Fieldset legend="About Us" className='h-full text-2xl'>
                     <p>
                         Ccl Group is a locally owned (Perth) and registered business that specializes in steel fabrication and welding, especially for <span className='font-semibold' style={{ display:'inline-block' }}>mining site equipments</span>.
                     </p>
                     <p>
-                        With over <span className='font-semibold' style={{ display:'inline-block' }}>15 years experience in the mining steel fabrication and welding industry</span> (having completed different various qualifications in Metal Fabrication and Welding), 
+                        With over <span className='font-semibold' style={{ display:'inline-block' }}>15 years experience in the mining steel fabrication and welding industry</span> (having completed different various qualifications in Metal Fabrication and Welding),
                         Ccl Group extensive experience in the fabrication of steel and other metal  <span className='font-semibold' style={{ display:'inline-block' }}>mining site equipments</span>.
                     </p>
                     <p>
@@ -20,11 +20,11 @@ const AboutPage = () => {
                     </p>
                 </Fieldset>
             </div>
-           <div className='col-12 lg:col-6' style={{ height: '700px' }}>
+           <div className='col-12 lg:col-6' style={{ minHeight: '700px' }}>
                 <Fieldset legend="Our Goal" className='h-full text-2xl'>
                     <p>
                         As a Perth based steel fabrication and welding services provider, we are committed finding local industrial companies and
-                        provide the services which can help solving <span className='font-semibold' style={{ display:'inline-block' }}>short term stuff shortage</span> or <span className='font-semibold' style={{ display:'inline-block' }}>tight project schedule problem</span>. 
+                        provide the services which can help solving <span className='font-semibold' style={{ display:'inline-block' }}>short term stuff shortage</span> or <span className='font-semibold' style={{ display:'inline-block' }}>tight project schedule problem</span>.
                     </p>
 
                     <p>

@@ -19,6 +19,10 @@
 }
 
 @media (max-width: 991px) {
+    .layout-topbar {
+        flex-direction: unset;
+    }
+
     .layout-topbar .layout-topbar-left {
         height: 9rem;
     }
@@ -28,6 +32,19 @@
     }
 }
 
+@media (max-width: 685px) {
+    .contact {
+        display: none;
+    }
+
+    .contact-mini {
+        display: block !important;
+    }
+}
+
+.contact-mini {
+    display: none;
+}
 
 .layout-wrapper .menu-wrapper {
     top: 9rem;
@@ -47,14 +64,14 @@
 }
 
 .layout-menu-light .menu-wrapper {
-   box-shadow: unset; 
+   box-shadow: unset;
    border-radius: 5px;
 
 }
 
 .layout-topbar-blue .layout-topbar{
     background-color: #565656;
-    
+
     .layout-topbar-left {
         background-color: unset;
     }

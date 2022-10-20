@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef } from 'react';
 import { classNames } from 'primereact/utils';
 import { MegaMenu } from 'primereact/megamenu';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 import { CSSTransition } from 'react-transition-group';
@@ -287,9 +287,10 @@ const AppTopbar = (props: any) => {
                     <i className="pi pi-chevron-right"></i>
                 </button>
             </div>
-            <div className="ml-auto text-2xl flex-column align-items-center" style={{ width: '300px !important', padding: '35px' }}>
+            <NavLink data-pr-tooltip=' Contact Us' to='/contact' style={{ width: '200px', marginTop: '48px' }} className='font-medium text-3xl text-color contact-mini'>Contact Us</NavLink>
+            <div className="ml-auto text-2xl flex-column align-items-center contact" style={{ padding: '35px' }}>
                 <div className="text-black-alpha-90">
-                    Email: 
+                    Email:
                     <a className='pl-1 text-black-alpha-90' href={`mailto:cclgroup77@gmail.com?subject=Request Service Quote`}>
                         cclgroup77@gmail.com
                     </a>
